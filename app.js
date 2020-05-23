@@ -6,4 +6,4 @@ app.get('/', (req, res) => {
   res.render('hello.ejs');
 });
 
-app.listen(8080);
+app.listen(8000);
