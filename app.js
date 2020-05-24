@@ -4,9 +4,9 @@ const app = express();
 app.enable('trust proxy');
 
 app.get('/', (req, res) => {
-  console.log("received a request m", req);
+  console.log("received a request", req);
   res.render('hello.ejs');
 });
 const port = 8080;
-console.log("waiting for clients to come on port: ", port);
+console.log("まってるよ～", port);
 app.listen(port);
